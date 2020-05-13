@@ -1,0 +1,8 @@
+// Default bootstrap theming
+$purple: #4609BA;
+$primary: $purple;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+$font-family-sans-serif:'Roboto', sans-serif;
+@import 'edx-bootstrap/sass/open-edx/theme';
+$action-primary-bg: $purple !default;
+ 

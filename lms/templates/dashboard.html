@@ -134,6 +134,10 @@ from student.models import CourseEnrollment
 
 </div>
 
+<div class="container-fluid fit-to-screen" style="background-color: #6c31de; margin: -20px -20px -20px -20px; padding-top: 10px; padding-bottom: 10px;">
+  <h1 class="alpha" style="margin: 20px 0px 20px 0px; color:white;" >My Courses <br>
+</div>
+
 <main id="main" aria-label="Content" tabindex="-1">
     <div class="dashboard" id="dashboard-main">
       <div class="main-container">
@@ -245,7 +249,7 @@ from student.models import CourseEnrollment
           % endif
         </div>
       </div>
-      <div class="side-container">
+      <!-- <div class="side-container">
         %if display_sidebar_account_activation_message:
           <div class="sidebar-notification">
             <%include file="${static.get_template_path('registration/account_activation_sidebar_notice.html')}" />
@@ -293,7 +297,7 @@ from student.models import CourseEnrollment
             </div>
           </div>
         % endif
-      </div>
+      </div> -->
     </div>
 </main>
 

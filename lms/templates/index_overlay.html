@@ -1,0 +1,13 @@
+<%page expression_filter="h"/>
+
+<%!
+from django.utils.translation import ugettext as _
+from openedx.core.djangolib.markup import HTML, Text
+%>
+
+<h1 style="color:white;">${Text(_(u"Welcome to {platform_name}")).format(platform_name=settings.PLATFORM_NAME)}</h1>
+<p style="color:white;">
+    Empowering students with financial education has never been easier. 
+    At Financiio, we're disrupting the way that financial education and life skills are taught in the classroom. 
+    Our fully developed and tested curriculum, built with our partners, has helped thousands of students make better life decisions
+</p>
