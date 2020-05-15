@@ -25,7 +25,7 @@
         }
     </%static:require_module>
     % if configuration_helpers.get_value('DISPLAY_TOS_IN_MODAL_ON_REGISTRATION_PAGE', False):
-    <script type="text/javascript" src="${static.url('js/student_account/tos_modal.js')}"></script>
+    <script type="text/javascript" src="${static.url('js/student_account/tos_modal.js')}">console.log("login-and-register")</script>
     % endif
 </%block>
 
